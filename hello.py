@@ -12,7 +12,7 @@ NEON_PINK = "\033[38;5;213m"
 sys.stdout.write(HIDE_CURSOR)
 sys.stdout.flush()
 
-print("THIS MY FAV SONG OF ALL TIME ✫♫♪♫")
+print("THIS MY FAV SONG OF ALL TIME ✫♫♪♫\n\n")
 
 lyrics = [
     # Chorus
@@ -83,3 +83,4 @@ try:
 finally:
     sys.stdout.write(SHOW_CURSOR)
     sys.stdout.flush()
+
